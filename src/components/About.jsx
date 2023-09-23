@@ -6,11 +6,11 @@ const About = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
                 </div>
                 <p className='text-xl mt-20'>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi cum atque veniam earum consequuntur, magni repellat molestiae libero minima nostrum quaerat corporis perspiciatis eveniet eius harum architecto hic laborum consequatur. Cupiditate nostrum et maxime suscipit!
+                    Hello, I'm Yohan Velásquez, and this is my portfolio. Over the past few years, I've been dedicated to self-directed learning, refining my programming skills. In addition to my technical expertise, I have also developed strong soft skills in teamwork, leadership, communication, and problem-solving.
                 </p>
                 <br />
                 <p className='text-xl'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi praesentium consequuntur, numquam id delectus illum exercitationem facere reprehenderit hic blanditiis optio sit, inventore eaque ipsa, alias commodi. Sint debitis, sed, accusamus quae quibusdam illum deleniti tempore eius rem odio culpa, illo laborum blanditiis! Esse laborum sint architecto voluptate debitis alias.
+                    Currently, I am seeking my first job in the web development field. I have an advanced level of English, enabling me to communicate fluently in this language and work in an international environment. I possess strong proficiency in HTML, CSS, Javascript, Python, PHP, Laravel, React.JS, Node.Js, Next.JS, Cypress, MySQL, MongoDB, PostgreSQL, Redux, and FetchAPI.
                 </p>
             </div>
         </div>

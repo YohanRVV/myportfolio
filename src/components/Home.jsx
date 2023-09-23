@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import HeroImage from "../assets/1687197919198.jpg"
+import HeroImage from "../assets/IMG_20230922_220542.jpg"
 import { MdKeyboardArrowRight } from "react-icons/md"
 import { Link } from 'react-scroll'
 
@@ -14,10 +14,7 @@ const Home = () => {
                         I am a FullStack Developer
                     </h2>
                     <p className='text-gray-500 py-4 max-w-md'>
-                        I have two years of experience in creating personal projects.
-                        Currently, I love to work on web application using technologies like
-                        React, Node, Laravel, Tailwind and Bootstrap.
-                        Also, i have hands-on experience working with both relational databases like MySQL and non-relational databases like MongoDB.
+                        Welcome to my page! I come with two years of experience in crafting personal projects. Presently, my passion lies in crafting web applications using cutting-edge technologies such as React, Node, Laravel, Tailwind, and Bootstrap. Furthermore, I have hands-on expertise in working with both relational databases like MySQL and non-relational databases like MongoDB.
                     </p>
                     <div>
                         <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
