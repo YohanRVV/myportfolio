@@ -6,7 +6,7 @@ const About = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
                 </div>
                 <p className='text-xl mt-20'>
-                    Hello, I'm Yohan Velásquez, and this is my portfolio. Over the past few years, I've been dedicated to self-directed learning, refining my programming skills. In addition to my technical expertise, I have also developed strong soft skills in teamwork, leadership, communication, and problem-solving.
+                    Hello, I'm Yohan Velásquez, and this is my portfolio. Since a year ago, I've been dedicated to self-directed learning, refining my programming skills. In addition to my technical expertise, I have also developed strong soft skills in teamwork, leadership, communication, and problem-solving.
                 </p>
                 <br />
                 <p className='text-xl'>
