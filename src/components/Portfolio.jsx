@@ -10,16 +10,23 @@ import reactWeather from '../assets/portfolio/reactWeather.jpg'
 
 const Portfolio = () => {
     const portfolios = [
-        {
+            {
             id: 1,
-            src: review,
+            src: review3,
+            demo: 'https://dev-gymappyr.pantheonsite.io/'
+        }
+        
+        {
+            id: 2,
+            src: review1,
             demo: 'https://appclimayrvv.netlify.app/'
         },
         {
-            id: 2,
+            id: 3,
             src: review2,
             demo: 'https://rockyrvv.netlify.app/'
-        }
+        },
+
     ]
 
     return (
