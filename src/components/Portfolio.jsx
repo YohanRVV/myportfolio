@@ -2,6 +2,7 @@
 import React from 'react'
 import review from '../assets/portfolio/review.jpg'
 import review2 from '../assets/portfolio/review2.jpg'
+import review3 from '../assets/portfolio/review3.png'
 import navBar from '../assets/portfolio/navbar.jpg'
 import reactParallax from '../assets/portfolio/reactParallax.jpg'
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
