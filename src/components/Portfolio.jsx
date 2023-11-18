@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import review from '../assets/portfolio/review.jpg'
+import review1 from '../assets/portfolio/review.jpg'
 import review2 from '../assets/portfolio/review2.jpg'
 import review3 from '../assets/portfolio/review3.png'
 import navBar from '../assets/portfolio/navbar.jpg'
@@ -15,8 +15,7 @@ const Portfolio = () => {
             id: 1,
             src: review3,
             demo: 'https://dev-gymappyr.pantheonsite.io/'
-        }
-        
+        },
         {
             id: 2,
             src: review1,
