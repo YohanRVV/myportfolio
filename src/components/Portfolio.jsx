@@ -44,12 +44,11 @@ const Portfolio = () => {
                     {
                         portfolios.map(({ id, src, demo, parragraph }) => (
                             <div key={id} className='shadow-md shadow-gray-400 rounded-lg'>
-                                <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
+                                <a href={demo} target='_blank' rel='noreferrer'>
+                                    <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
+                                </a>
                                 <div className='flex items-center justify-center'>
                                     <p className='text-center mt-3'>{parragraph}</p>
-                                    <a href={demo} target='_blank' rel='noreferrer' className='bg-indigo-700 hover:bg-indigo-900  text-white font-bold mt-5 mb-2 py-3 px-4 rounded duration-200 hover:scale-105'>
-                                        Demo
-                                    </a>
                                 </div>
                             </div>
 
