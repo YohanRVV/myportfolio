@@ -3,6 +3,9 @@ import React from 'react'
 import review1 from '../assets/portfolio/review.jpg'
 import review2 from '../assets/portfolio/review2.jpg'
 import review3 from '../assets/portfolio/review3.png'
+import daf2024 from '../assets/portfolio/daf2024.PNG'
+import spyland from '../assets/portfolio/spyland.PNG'
+import freixenet from '../assets/portfolio/freixenet.PNG'
 import navBar from '../assets/portfolio/navbar.jpg'
 import reactParallax from '../assets/portfolio/reactParallax.jpg'
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
@@ -13,21 +16,39 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: review3,
-            demo: 'https://dev-gymappyr.pantheonsite.io/',
-            parragraph: "This WordPress site features custom post types and taxonomies, utilizes the ACF plugin for advanced functionality, and incorporates the Swiper library and Lightbox for interactive displays."
+            src: freixenet,
+            demo: 'https://freixenet.com/',
+            parragraph: "Collaborated on Freixenet's global page using WordPress, AJAX, jQuery, and Bootstrap."
         },
         {
             id: 2,
-            src: review1,
-            demo: 'https://appclimayrvv.netlify.app/',
-            parragraph: "Weather App made with React. Using API openweathermap"
+            src: daf2024,
+            demo: 'https://dev.daf.agency/daf_2024/',
+            parragraph: "Developed DAf Agency's official page with WordPress, AJAX, jQuery, and Bootstrap."
         },
         {
             id: 3,
+            src: spyland,
+            demo: 'https://dev.daf.agency/spyland/#',
+            parragraph: "Crafted Spyland's landing page using WordPress, AJAX, jQuery, and Bootstrap."
+        },
+        {
+            id: 4,
+            src: review3,
+            demo: 'https://dev-gymappyr.pantheonsite.io/',
+            parragraph: "Created a gym website with WordPress and libraries like Swiper and lightbox."
+        },
+        {
+            id:5,
+            src: review1,
+            demo: 'https://appclimayrvv.netlify.app/',
+            parragraph: "Built a weather app with React and the OpenWeatherMap API."
+        },
+        {
+            id: 6,
             src: review2,
             demo: 'https://rockyrvv.netlify.app/',
-            parragraph: "Basic Landing Page using Javascript and Css"
+            parragraph: "Designed a simple landing page using JavaScript and CSS."
         },
 
     ]
