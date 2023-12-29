@@ -11,20 +11,23 @@ import reactWeather from '../assets/portfolio/reactWeather.jpg'
 
 const Portfolio = () => {
     const portfolios = [
-            {
+        {
             id: 1,
             src: review3,
-            demo: 'https://dev-gymappyr.pantheonsite.io/'
+            demo: 'https://dev-gymappyr.pantheonsite.io/',
+            parragraph: "This WordPress site features custom post types and taxonomies, utilizes the ACF plugin for advanced functionality, and incorporates the Swiper library and Lightbox for interactive displays."
         },
         {
             id: 2,
             src: review1,
-            demo: 'https://appclimayrvv.netlify.app/'
+            demo: 'https://appclimayrvv.netlify.app/',
+            parragraph: "Weather App made with React. Using API openweathermap"
         },
         {
             id: 3,
             src: review2,
-            demo: 'https://rockyrvv.netlify.app/'
+            demo: 'https://rockyrvv.netlify.app/',
+            parragraph: "Basic Landing Page using Javascript and Css"
         },
 
     ]
@@ -39,10 +42,11 @@ const Portfolio = () => {
 
                 <div className='grid sm:grid-cols-3 md:grid-cols-3 gap-8 px-12 sm:px-0'>
                     {
-                        portfolios.map(({ id, src, demo }) => (
+                        portfolios.map(({ id, src, demo, parragraph }) => (
                             <div key={id} className='shadow-md shadow-gray-400 rounded-lg'>
                                 <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
                                 <div className='flex items-center justify-center'>
+                                    <p className='text-center mt-3'>{parragraph}</p>
                                     <a href={demo} target='_blank' rel='noreferrer' className='bg-indigo-700 hover:bg-indigo-900  text-white font-bold mt-5 mb-2 py-3 px-4 rounded duration-200 hover:scale-105'>
                                         Demo
                                     </a>
