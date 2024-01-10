@@ -18,19 +18,19 @@ const Portfolio = () => {
             id: 1,
             src: freixenet,
             demo: 'https://freixenet.com/',
-            parragraph: "Collaborated on Freixenet's global page using WordPress, AJAX, jQuery, and Bootstrap."
+            parragraph: "Collaborated on Freixenet's global page using PHP, WordPress, AJAX, jQuery, and Bootstrap."
         },
         {
             id: 2,
             src: daf2024,
             demo: 'https://dev.daf.agency/daf_2024/',
-            parragraph: "Developed DAf Agency's official page with WordPress, AJAX, jQuery, and Bootstrap."
+            parragraph: "Developed DAf Agency's official page with PHP, WordPress, AJAX, jQuery, and Bootstrap."
         },
         {
             id: 3,
             src: spyland,
             demo: 'https://dev.daf.agency/spyland/#',
-            parragraph: "Crafted Spyland's landing page using WordPress, AJAX, jQuery, and Bootstrap."
+            parragraph: "Crafted Spyland's landing page using PHP, WordPress, AJAX, jQuery, and Bootstrap."
         },
         {
             id: 4,
