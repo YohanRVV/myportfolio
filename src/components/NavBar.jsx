@@ -61,7 +61,7 @@ const NavBar = () => {
                             <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/yohanrvv18/"><FaLinkedin size={30} /></a>
                             <a target='_blank' rel="noreferrer" href="https://github.com/YohanRVV"><FaGithub size={30} /></a>
                             <a target='_blank' rel="noreferrer" href="mailto:yohan.0055@gmail.com"><HiOutlineMail size={30} /></a>
-                            <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1I1Ml3cfMdaZ2xNt66wJVRfSDNe0K8pON/view"><BsFillPersonLinesFill size={30} /></a>
+                            <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1mjNxaUPakEABuyMY2nVgumN52HMZ8Nae/view?usp=sharing"><BsFillPersonLinesFill size={30} /></a>
                         </div>
                     </ul>
 
