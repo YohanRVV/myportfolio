@@ -23,7 +23,7 @@ const Portfolio = () => {
         {
             id: 2,
             src: daf2024,
-            demo: 'https://dev.daf.agency/daf_2024/',
+            demo: 'https://daf.agency/',
             parragraph: "Developed DAf Agency's official page with PHP, WordPress, AJAX, jQuery, and Bootstrap."
         },
         {
